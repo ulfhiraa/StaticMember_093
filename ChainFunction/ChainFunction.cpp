@@ -9,7 +9,7 @@ public:
 	buku setJudul(string judul) 
 	{
 		this->judul = judul;
-		return *this; // chain function
+		return *this; // chain function 
 	}
 	string getJudul()
 	{
