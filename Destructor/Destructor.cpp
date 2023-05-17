@@ -13,8 +13,15 @@ public:
 };
 
 //Definisi member function
-angka::angka(int i) {
+angka::angka(int i) { // constructor
 	panjang = i;
 	arr = new int[i];
 	isiData();
+}
+
+angka::~angka() { // destructor
+	cout << endl;
+	cetakData();
+	delete[]arr;
+	cout << "Alamat Array sudah dilepaskan " << endl;
 }
