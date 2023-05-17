@@ -7,4 +7,5 @@ private:
 	int panjang;
 public:
 	angka(int); // constructor
+	~angka(); // destructor
 };
