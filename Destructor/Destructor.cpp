@@ -24,4 +24,4 @@ angka::~angka() { // destructor
 	cetakData();
 	delete[]arr;
 	cout << "Alamat Array sudah dilepaskan " << endl;
-}
+} 
