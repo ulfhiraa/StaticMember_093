@@ -13,6 +13,6 @@ public:
 	}
 	string getJudul() 
 	{
-		return this->judul;
+		return this->judul; 
 	}
 };
