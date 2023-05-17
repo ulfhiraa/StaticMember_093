@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticMember", "StaticMembe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructor", "Constructor\Constructor.vcxproj", "{EF42FC0A-9B7E-4857-8626-7DC7CCFC3660}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Destructor", "Destructor\Destructor.vcxproj", "{51F4DCDB-A6C8-4233-836B-77486D9F575B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{EF42FC0A-9B7E-4857-8626-7DC7CCFC3660}.Release|x64.Build.0 = Release|x64
 		{EF42FC0A-9B7E-4857-8626-7DC7CCFC3660}.Release|x86.ActiveCfg = Release|Win32
 		{EF42FC0A-9B7E-4857-8626-7DC7CCFC3660}.Release|x86.Build.0 = Release|Win32
+		{51F4DCDB-A6C8-4233-836B-77486D9F575B}.Debug|x64.ActiveCfg = Debug|x64
+		{51F4DCDB-A6C8-4233-836B-77486D9F575B}.Debug|x64.Build.0 = Debug|x64
+		{51F4DCDB-A6C8-4233-836B-77486D9F575B}.Debug|x86.ActiveCfg = Debug|Win32
+		{51F4DCDB-A6C8-4233-836B-77486D9F575B}.Debug|x86.Build.0 = Debug|Win32
+		{51F4DCDB-A6C8-4233-836B-77486D9F575B}.Release|x64.ActiveCfg = Release|x64
+		{51F4DCDB-A6C8-4233-836B-77486D9F575B}.Release|x64.Build.0 = Release|x64
+		{51F4DCDB-A6C8-4233-836B-77486D9F575B}.Release|x86.ActiveCfg = Release|Win32
+		{51F4DCDB-A6C8-4233-836B-77486D9F575B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
